@@ -38,3 +38,5 @@ def cal():
         print(num1 / num2)
     if math_operations == "**":
         print(num1 ** num2)
+        
+cal()
