@@ -1,0 +1,40 @@
+# Calculator
+
+def cal():
+
+
+    while True:
+        try:
+            num1 = float(input('Insert first number:  '))
+            break
+        except ValueError:
+            continue
+
+
+    while True:
+        math_operations = input('Insert math operator: "+", "-", "*", "/", or **: ')
+        if math_operations not in ['+', '-', '*', '/', '**']:
+            math_operations = input('This is not a valid math operator, please put a valid math operator in:  ')
+            continue
+        else:
+            break
+
+    while True:
+        try:
+            num2 = float(input('insert second number:  '))
+            break
+        except ValueError:
+            continue
+
+    
+    
+    if math_operations == "+":
+        print(num1 + num2)
+    if math_operations == "-":
+        print(num1 - num2)
+    if math_operations == "*":
+        print(num1 * num2)
+    if math_operations == "/":
+        print(num1 / num2)
+    if math_operations == "**":
+        print(num1 ** num2)
