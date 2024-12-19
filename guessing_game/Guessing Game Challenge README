@@ -1,0 +1,10 @@
+# Guessing Game Challenge
+
+This was my first Python project that I did. 
+
+In this project the goal was to create a game that allowed users to guess between 1-10.
+Once you correctly guessed the number it would tell you how many times it took for you to guess the number.
+
+
+
+

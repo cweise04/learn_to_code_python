@@ -4,6 +4,6 @@ This was my second Python project that I did.
 
 In this project the goal was to create a calculator that could handle addition, subtraction, multiplication, division, and square root.
 
-The first part of getting an input for numbers and a math operator was simple. However, I did struggle for a little bit trying to figure out how to allow my calculator program to accept decimals and negative numbers along with looping the input if they an input was not correctly inputted. At first I tried .isdigit(), then .isnumeric(), but neither worked. Eventually, I figured out that I needed to use try and except with my float to be able to accomplish that goal.
+The first part of getting an input for numbers and a math operator was simple. However, I did struggle for a little bit trying to figure out how to allow my calculator program to accept decimals and negative numbers along with looping the input if they had an input that was not correctly inputted. At first I tried .isdigit(), then .isnumeric(), but neither worked. Eventually, I figured out that I needed to use try and except with my float to be able to accomplish that goal.
 
 

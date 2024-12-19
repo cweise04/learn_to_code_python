@@ -1,0 +1,21 @@
+# Choose Your Own Adventure Game
+
+I chose this project because I remember when I was an elementary kid I really enjoyed reading the Choose Your Own Adventure books and I thought my boys would enjoy playing this game.
+
+I started off by making this to be able to be used in my terminal console, but after finishing it and testing it some more I decided this is not the best way to play this game. So I decided to make it a pygame. 
+
+Since I had never made a py game this required me to learn how to make a display, fonts that fit the display and how to output my game into the display. The first thing I had to do was figure out how to create a screen with fonts. I looked up how to do this since I had never done it before. Once I did that I realized that my game still would not pull up in the display even though when I tried a test pygame code with my display code it worked. 
+
+I then learned that you cannot use input or print for py games because that is only good for output and inputting in the console. Instead I had to create a display_text to be outputted on my display and use keyboard commands which I chose 1,2, and 3 for my game to make it easy for the players. I then had to go through the entire code and switch all my input to use keyboard commands so I created 2 different functions depending on what user choice I needed at the time in the story that I used. I also had to switch all print statements into display_text function.
+
+Once I finished switching all input and print statements. I tested my code and realized that the display was too small and you couldn't readjust it and the sentences ran of the display not being able to be read. So I had to go back to my screen and change the size of it, but I also added the ability to resize the screen and then I made the font size dynamic and changed the font to something I thought was easier to read. This did not fix the sentences running off of the screen but it did fix the issue with the screen and font size.
+
+To fix the sentence issue I learned I needed to wrap the lines not just render the text. So I created wrapped_lines that would allow the lines to stay within the display.
+
+After I had finished fixing these errors I thought I was finally done and my game would be ready to go, but I was wrong. Because, Once I started testing the game, the only part of the story that was being displayed was the ones that required a choice all the filler part of the story was not being displayed. I realized that because I didn't use a delay for my story line to be read that it was just going to fast to the next spot in which you had to insert another choice. So what I decided to do was to create a wait_for_input function in which the function would wait till someone clicked the return key on the keyboard.
+
+The final issue I had was that game was not exiting correctly. I was trying to do with with turning running from True to False but that wasn't working so I used pygame.quit() and then sys.exit() to stop the game.
+
+
+
+

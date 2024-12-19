@@ -1,8 +1,0 @@
-# Guessing Game Challenge
-
-This is another project I worked on. It was a lot harder for me than the first one. 
-
-Learning the logic flow of making this game was a challenge. I learned the importance of global variables, how to create a board, how to switch between different players turns. My biggest difficulty was to figure out how to set up the logic for the last loop of while play_more: This is the first time I used functions inside of awhile loop.
-
-
-
